@@ -154,3 +154,4 @@ figure, blockquote { margin: 0; }
   .hero-bg { inset: 0 auto 0 0; width: 60%; object-position: 50% 75%; }
   .hero::after { background: linear-gradient(270deg, var(--bg) 40%, rgba(251, 246, 241, 0) 62%); }
 }
+.device img.product { object-fit: contain; background: #fff; padding: 18px; }
