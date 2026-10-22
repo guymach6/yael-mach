@@ -22,8 +22,8 @@
   <link rel="apple-touch-icon" href="brand/logo-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Bellefair&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="images/hero-facial-mask.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Caveat:wght@600&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/hero-white.jpg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,14 +35,45 @@
   <main>
     <!-- ================= hero ================= -->
     <section class="hero">
-      <img class="hero-bg" src="images/hero-facial-mask.jpg" alt="" width="1600" height="1200">
+      <img class="hero-bg" src="images/hero-white.jpg" alt="" width="1600" height="1200">
       <div class="wrap">
         <div class="hero-card">
-          <div class="logo">
-            <div class="logo-name">יעל מך</div>
-            <span class="logo-rule"></span>
-            <div class="logo-tag">מכון לקוסמטיקה מקצועית וחדשנית</div>
-          </div>
+          <svg class="seal" viewBox="0 0 400 400" role="img" aria-label="yael cosmetics – מכון לקוסמטיקה מקצועית וחדשנית">
+  
+  <defs>
+    <clipPath id="yc-disc"><circle cx="200" cy="200" r="196"/></clipPath>
+    <g id="yc-flower" fill="none" stroke="#e6d3b3" stroke-width="1.4">
+      <circle r="7"/><circle r="2.5" fill="#e6d3b3"/>
+      <ellipse cx="0" cy="-17" rx="7" ry="11"/><ellipse cx="0" cy="17" rx="7" ry="11"/>
+      <ellipse cx="-17" cy="0" rx="11" ry="7"/><ellipse cx="17" cy="0" rx="11" ry="7"/>
+      <ellipse cx="12" cy="-12" rx="6" ry="9" transform="rotate(45 12 -12)"/><ellipse cx="-12" cy="12" rx="6" ry="9" transform="rotate(45 -12 12)"/>
+      <ellipse cx="-12" cy="-12" rx="6" ry="9" transform="rotate(-45 -12 -12)"/><ellipse cx="12" cy="12" rx="6" ry="9" transform="rotate(-45 12 12)"/>
+    </g>
+    <g id="yc-paisley" fill="none" stroke="#e6d3b3" stroke-width="1.4">
+      <path d="M0 30c-22-6-30-30-16-48 14-18 42-12 46 10 3 18-10 30-22 26-10-3-12-16-4-20"/>
+      <path d="M-6 22c-14-6-18-22-8-32"/><circle cx="12" cy="-6" r="3"/>
+    </g>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="#fbf4ea"/>
+  <g clip-path="url(#yc-disc)" opacity=".9">
+    <use href="#yc-flower" x="92" y="80"/>
+    <use href="#yc-flower" x="318" y="318" transform="rotate(20 318 318)"/>
+    <use href="#yc-flower" x="58" y="300"/>
+    <use href="#yc-paisley" x="300" y="96" transform="rotate(-25 300 96)"/>
+    <use href="#yc-paisley" x="140" y="340" transform="rotate(160 140 340)"/>
+    <g fill="none" stroke="#ecdcc1" stroke-width="1.2">
+      <path d="M20 170c40-30 70-10 96-40s20-60 60-80"/>
+      <path d="M380 230c-40 24-70 4-96 34s-18 62-58 84"/>
+      <path d="M150 30c10 20 30 24 44 14"/><path d="M250 372c-10-20-30-24-44-14"/>
+    </g>
+  </g>
+  <circle cx="200" cy="200" r="186" fill="none" stroke="#dcc39a" stroke-width="1.2"/>
+  
+  <path d="M286 156c8-20 26-30 40-24-10 2-18 8-20 16 10-8 26-8 32 2-12-3-22 2-26 10-6 12-6 26-16 34-6 5-14 4-16-2 8 2 12-4 12-12 0-10-10-16-6-24z" fill="#c9a35f"/>
+  <text x="196" y="205" text-anchor="middle" font-family="Caveat, 'Segoe Script', cursive" font-weight="600" font-size="64" fill="#5b3b36">yael cosmetics</text>
+  <path d="M84 224h232" stroke="#5b3b36" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="200" y="254" text-anchor="middle" direction="rtl" font-family="Assistant, Arial, sans-serif" font-size="18" letter-spacing="1.5" fill="#6d5148">מכון לקוסמטיקה מקצועית וחדשנית</text>
+</svg>
           <h1>העור שלך, במיטבו.</h1>
           <p class="lead">טיפולי פנים מתקדמים במכשור חדשני, 19 שנות ניסיון, ויחס אישי וחם שמרגישים מהרגע הראשון.</p>
           <a class="btn btn-wa" data-wa="שלום יעל, הגעתי מהדף שלך ואשמח לקבוע טיפול" href="https://wa.me/972506976125" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>אני רוצה לקבוע טיפול</a>
@@ -61,21 +92,7 @@
         </div>
 
         <div class="device">
-          <img src="images/device-rf.jpg" alt="טיפול RF" loading="lazy" width="1000" height="1250">
-          <div class="device-txt">
-            <span class="device-kicker">RF · גלי רדיו</span>
-            <h3>מיצוק והרמה, בלי מחט</h3>
-            <p>גלי רדיו מחממים בעדינות את שכבות העור העמוקות ומעודדים את העור לייצר קולגן חדש. העור נמתח, קווי הפנים מתחדדים, והמראה נעשה מורם ורענן.</p>
-            <ul class="ticks">
-              <li><svg><use href="#i-check"/></svg>מיצוק והידוק העור</li>
-              <li><svg><use href="#i-check"/></svg>הגדרה של קו הלסת והלחיים</li>
-              <li><svg><use href="#i-check"/></svg>תחושה חמימה ומפנקת</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="device device-flip">
-          <img src="images/device-facial.jpg" alt="טיפול אלקטרופורציה" loading="lazy" width="1000" height="1250">
+          <img src="images/device-facial.jpg" alt="טיפול במכשיר אלקטרופורציה" loading="lazy" width="1000" height="1250">
           <div class="device-txt">
             <span class="device-kicker">אלקטרופורציה</span>
             <h3>הסרום נכנס עד העומק</h3>
@@ -84,6 +101,20 @@
               <li><svg><use href="#i-check"/></svg>בלי מחטים ובלי כאב</li>
               <li><svg><use href="#i-check"/></svg>בלי זמן החלמה, חוזרים לשגרה מיד</li>
               <li><svg><use href="#i-check"/></svg>מתאים לכל סוגי העור</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="device device-flip">
+          <img src="images/device-machine.jpg" alt="מכשיר מיקרו זרמים לטיפולי פנים" loading="lazy" width="1000" height="667">
+          <div class="device-txt">
+            <span class="device-kicker">מיקרו זרמים · פיתוח של GIGI</span>
+            <h3>רטט, חום וקור לעור מוצק וזוהר</h3>
+            <p>מכשיר מיקרו זרמים שפיתחה חברת GIGI לפיתוח עור הפנים. הוא משלב רטט עדין עם חום וקור: המיקרו זרמים מעוררים את העור, החום עוזר לחומרים לחדור, והקור מהדק ומרענן.</p>
+            <ul class="ticks">
+              <li><svg><use href="#i-check"/></svg>מיצוק והרמה טבעית של הפנים</li>
+              <li><svg><use href="#i-check"/></svg>עור רענן, מהודק וקורן</li>
+              <li><svg><use href="#i-check"/></svg>תחושה נעימה ומפנקת</li>
             </ul>
           </div>
         </div>
@@ -104,11 +135,11 @@
         </div>
         <div class="cards">
           <article class="card card-feature">
-            <img src="images/facial-massage.jpg" alt="פיסול פנים חדשני" loading="lazy" width="1000" height="1250">
+            <img src="images/sculpt-mature.jpg" alt="פיסול פנים חדשני" loading="lazy" width="1000" height="1250">
             <div class="body">
               <span class="tag">טיפול הדגל</span>
               <h3>פיסול פנים חדשני</h3>
-              <p>RF, אלקטרופורציה ועיסוי פיסולי בטיפול אחד. למראה מורם, מתוח ומוגדר, ממש לפני אירוע או סתם כי מגיע לך.</p>
+              <p>מיקרו זרמים, אלקטרופורציה ועיסוי פיסולי בטיפול אחד. למראה מורם, מתוח ומוגדר, ממש לפני אירוע או סתם כי מגיע לך.</p>
             </div>
           </article>
           <article class="card">
@@ -119,7 +150,7 @@
             </div>
           </article>
           <article class="card">
-            <img src="images/hero-facial-mask.jpg" alt="טיפול פנים לאקנה" loading="lazy" width="1600" height="1200">
+            <img src="images/acne-teen.jpg" alt="טיפול פנים לאקנה" loading="lazy" width="1000" height="667">
             <div class="body">
               <h3>טיפול פנים לאקנה</h3>
               <p>ניקוי עמוק וטיפול מאזן, לעור נקי, רגוע ובריא. לנערות ולמבוגרות.</p>
@@ -137,11 +168,11 @@
             <div class="body"><h3>שעווה</h3><p>עדינה ואיכותית, לתוצאה חלקה כבר היום.</p></div>
           </article>
           <article class="card card-sm">
-            <img src="images/facial-brush.jpg" alt="עיצוב גבות ושפם" loading="lazy" width="1000" height="1250">
+            <img src="images/brows-brush.jpg" alt="עיצוב גבות ושפם" loading="lazy" width="1000" height="1250">
             <div class="body"><h3>גבות ושפם</h3><p>עיצוב מדויק שמאיר את הפנים ומתאים לתווים שלך.</p></div>
           </article>
           <article class="card card-sm">
-            <img src="images/manicure-nude.jpg" alt="פדיקור ומניקור" loading="lazy" width="1000" height="1250">
+            <img src="images/french-pedicure.jpg" alt="פדיקור ומניקור" loading="lazy" width="1000" height="1250">
             <div class="body"><h3>פדיקור ומניקור</h3><p>ידיים ורגליים מטופחות, כולל פדיקור מקצועי לסוכרתיים.</p></div>
           </article>
         </div>

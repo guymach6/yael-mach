@@ -143,3 +143,14 @@ figure, blockquote { margin: 0; }
 /* floating WhatsApp */
 .wa-float { position: fixed; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); inset-inline-end: 18px; z-index: 30; width: 58px; height: 58px; border-radius: 50%; background: var(--wa); color: #fff; display: grid; place-items: center; box-shadow: 0 10px 26px rgba(31, 157, 85, .35); }
 .wa-float svg { width: 30px; height: 30px; }
+
+/* round logo (light version of the original yael cosmetics seal) */
+.seal { width: 230px; height: auto; display: block; filter: drop-shadow(0 6px 16px rgba(120, 90, 60, .12)); }
+.hero-card { padding-top: 30px; }
+.hero-bg { object-position: 40% 80%; }
+@media (max-width: 720px) { .seal { width: 190px; } }
+@media (min-width: 721px) {
+  .hero { background: var(--bg); }
+  .hero-bg { inset: 0 auto 0 0; width: 60%; object-position: 50% 75%; }
+  .hero::after { background: linear-gradient(270deg, var(--bg) 40%, rgba(251, 246, 241, 0) 62%); }
+}
